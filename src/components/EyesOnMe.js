@@ -2,7 +2,7 @@
 
 import  React, {Component} from 'react';
 
-export default class Keypad extends Component{
+class Keypad extends Component{
     handleKeyUp = () =>{
         console.log('Entering password...');
     }
@@ -12,3 +12,4 @@ export default class Keypad extends Component{
         );
     }
 }
+export default Keypad;
