@@ -3,6 +3,9 @@
 import  React, {Component} from 'react';
 
 class Keypad extends Component{
+  
+  
+  
     handleKeyUp = () =>{
         console.log('Entering password...');
     }
