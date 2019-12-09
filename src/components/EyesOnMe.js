@@ -7,9 +7,10 @@ class Keypad extends Component{
   
   //event handler
     handleKeyUp = () =>{
-        console.log('Entering password...');
+console.log('Entering password...');
     }
-    render(){
+    
+render(){
         return(
             <input type="password" onKeyUp={this.handleKeyUp} />
         );
