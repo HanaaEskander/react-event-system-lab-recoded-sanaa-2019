@@ -5,7 +5,7 @@
 
 import React, {Component} from 'react';
 
-export default class EyesOnMe extends Component{
+ class EyesOnMe extends Component{
     handleFocus = () =>{
         console.log('Good!');
     }
@@ -18,3 +18,5 @@ export default class EyesOnMe extends Component{
         );
     }
 }
+
+export default EyesOnMe;
